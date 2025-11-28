@@ -69,13 +69,12 @@ registrationForm.addEventListener('submit', async (e) => {
             terms: document.getElementById('terms').checked
         };
         
-        const response = await fetch('/api/register', {
+        const response = await fetch('https://registrationform-backend-5d3t.onrender.com/api/register', {
             method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
+            headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(formData)
         });
+
         
         const data = await response.json();
         

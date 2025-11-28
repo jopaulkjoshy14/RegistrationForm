@@ -82,7 +82,7 @@ form.addEventListener('submit', async (e) => {
     };
 
     try {
-        const response = await fetch("https://your-backend.onrender.com/register", {
+        const response = await fetch("https://registrationform-backend-5d3t.onrender.com", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(userData)

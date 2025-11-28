@@ -28,10 +28,16 @@
         });
 
         confirmPasswordToggle.addEventListener('click', () => {
-            const type = confirmPasswordInput.getAttribute('type') === 'password' ? 'text' : 'password';
-            confirmPasswordInput.setAttribute('type', type);
-            confirmPasswordToggle.querySelector('i').className = type === 'password' ? 'fas fa-eye' : 'fas fa-eye-slash';
-        });
+    const type =
+        confirmPasswordInput.getAttribute('type') === 'password'
+            ? 'text'
+            : 'password';
+
+    confirmPasswordInput.setAttribute('type', type);
+    confirmPasswordToggle.querySelector('i').className =
+        type === 'password' ? 'fas fa-eye' : 'fas fa-eye-slash';
+});
+
 
         // Form Validation
         const form = document.getElementById('registrationForm');

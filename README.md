@@ -1,3 +1,5 @@
+![RegistrationForm Screenshot](./assets/RegistrationForm.png)
+
 # Registration Form
 
 A clean and responsive registration form built to practice frontend validation, UI design, and basic data handling concepts.

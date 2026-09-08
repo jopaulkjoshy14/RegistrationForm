@@ -8,11 +8,6 @@ This project focuses on form structure, client-side validation, and simple deplo
 
 ---
 
-## 🌐 Live Demo
-https://registrationform-37ca.onrender.com
-
----
-
 ## 🛠️ Tech Stack
 
 ### Frontend
